@@ -67,10 +67,3 @@ The Power BI report contains **2 interactive sheets**:
 
 ---
 
-## 📌 Binning Example (Power Query)
-
-```m
-if [Alcohol_Consumption_per_Week] = 0 then "None" 
-else if [Alcohol_Consumption_per_Week] <= 3 then "Low" 
-else if [Alcohol_Consumption_per_Week] <= 6 then "Moderate" 
-else "High"
